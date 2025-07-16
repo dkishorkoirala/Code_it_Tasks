@@ -1,0 +1,85 @@
+Python Looping Assignments
+Focus: for, while, and nested loops
+🔹 Section A: Simple Looping Questions
+1. Print Numbers from 1 to N
+🔸 Input N and print all numbers from 1 to N.
+Hint: Use for i in range(1, N+1):
+
+2. Sum of First N Natural Numbers
+🔸 Input N and print the sum 1 + 2 + ... + N.
+Hint: Use a loop to add each number to a total variable.
+
+3. Print Multiples of 3 up to N
+🔸 Input N and print all multiples of 3 up to N.
+Hint: Use if i % 3 == 0: inside loop.
+
+4. Count Digits in a Number
+🔸 Input a number and count how many digits it has.
+Hint: Use while number > 0: and divide by 10 each time.
+
+5. Reverse a Number
+🔸 Input a number, and print its reverse.
+Hint: Use % 10 to get last digit, and // 10 to shorten the number.
+
+6. Check if a Number is Prime
+🔸 Input a number and check if it's prime or not.
+Hint: A number is prime if it has no divisors other than 1 and itself.
+
+7. Find Factorial of a Number
+🔸 Input n and print n!.
+Hint: Multiply all numbers from 1 to n.
+
+8. Find All Factors of a Number
+🔸 Input a number and print all its factors.
+Hint: Loop from 1 to n and check n % i == 0.
+
+9. Sum of Digits
+🔸 Input a number and print the sum of its digits.
+Hint: Use % 10 to get each digit, then // 10.
+
+10. Check Palindrome Number
+🔸 Input a number and check if it reads the same backward.
+Hint: Reverse the number and compare it with the original.
+🔹 Section B: Applied Looping Logic
+
+11. Fibonacci Series up to N Terms
+🔸 Input N, and print the first N numbers in the Fibonacci series.
+Hint: Start with 0 and 1, then update using a, b = b, a + b.
+
+12. Find LCM of Two Numbers
+🔸 Input two numbers and find their Least Common Multiple (LCM).
+Hint: Use loop starting from max(a, b) until you find a number divisible by
+both.
+
+13. Find GCD of Two Numbers
+🔸 Input two numbers and find their Greatest Common Divisor (GCD).
+Hint: Loop from 1 to min(a, b) and check for common divisors.
+
+14. Check Armstrong Number
+🔸 Input a number and check if it’s an Armstrong number.
+Hint: Raise each digit to the power of total digits and add them.
+
+15. Print All Prime Numbers in a Range
+🔸 Input start and end, and print all prime numbers in that range.
+Hint: Use a nested loop: outer for range, inner to check prime.
+
+16. Find the Smallest Digit in a Number
+🔸 Input a number and print the smallest digit.
+Hint: Extract each digit and compare using min.
+
+17. Find the Largest Digit in a Number
+🔸 Input a number and print the largest digit.
+Hint: Extract digits with % 10 and use max.
+
+18. Check Perfect Number
+🔸 A number is perfect if the sum of its proper divisors equals itself.
+Hint: Add all divisors (except the number) and compare with original.
+
+19. List All Divisors of a Number
+🔸 Input a number and list all numbers that divide it.
+Hint: Loop from 1 to n and check n % i == 0.
+
+20. Find Sum of Even and Odd Digits Separately
+🔸 Input a number and calculate the sum of even digits and odd digits
+separately.
+Hint: Use % 10 to get each digit and separate with if digit % 2 == 0.
