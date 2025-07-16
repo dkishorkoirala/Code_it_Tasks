@@ -1,0 +1,155 @@
+Python Assignment – Input & Conditional
+
+Statements
+
+🔹 Basic Level Questions (1–10)
+
+1. Even or Odd
+
+🔸 Ask the user for a number. Use the modulo operator % to check if it's
+
+divisible by 2.
+
+Hint: number % 2 == 0 means the number is even.
+
+2. Positive, Negative, or Zero
+
+🔸 Input a number and use if–elif–else to compare it with 0.
+
+Hint: Use conditions like > 0, < 0, and == 0.
+
+3. Largest of Two Numbers
+
+🔸 Ask the user for two numbers and compare them using if and else.
+
+Hint: Use if a > b: to find the larger number.
+
+4. Check Voting Eligibility
+
+🔸 Input age and check if it’s 18 or more.
+
+Hint: if age >= 18:
+
+5. Divisible by 5 and 11
+
+🔸 Take a number and check if it's divisible by both 5 and 11.
+
+Hint: Use if number % 5 == 0 and number % 11 == 0:
+
+6. Leap Year Checker
+
+🔸 Input a year and check leap year using proper conditions.
+
+Hint: A year is leap if:
+
+○ Divisible by 4, and not divisible by 100,
+
+○ or divisible by 400
+
+7. Character Type Checker
+
+🔸 Input a single character. Use built-in string methods or ASCII ranges.
+
+Hint: Use .isalpha(), .isdigit(), or check ASCII code with ord().
+
+8. Uppercase or Lowercase Alphabet
+
+🔸 Input a character and determine its case.
+
+Hint: Use .isupper() or compare ASCII values:
+
+○ A–Z: 65–90
+
+○ a–z: 97–122
+
+9. Weekday Name by Number
+
+🔸 Input a number (1–7) and print the weekday.
+
+Hint: Use a chain of if, elif, else statements for 1 to 7.
+
+10. Grade Assigner
+
+🔸 Input marks (0–100) and assign grades accordingly.
+
+Hint: Use multiple conditions like if 90 <= marks <= 100: and so on.
+
+Moderate Level Questions (11–20)
+
+11. Triangle Validity Checker
+
+🔸 Ask for three sides. A triangle is valid if sum of any two sides > third side.
+
+Hint: Use all three combinations: a + b > c, a + c > b, b + c > a
+
+12. Quadrant Finder
+
+🔸 Input x and y coordinates and print which quadrant they lie in.
+
+Hint: Use conditions like:
+
+● x > 0 and y > 0 → 1st quadrant
+
+● x < 0 and y > 0 → 2nd quadrant etc.
+
+13. Odd or Even Digit Count
+
+🔸 Input a single digit and check if it is odd or even.
+
+Hint: Check if input is a single digit (0–9), then use % 2.
+
+14. Electricity Bill Calculator
+
+🔸 Use conditional blocks to calculate amount based on slab rates.
+
+Hint: Use multiple if or if–elif–else blocks to handle each range
+
+of units.
+
+15. Simple Calculator
+
+🔸 Take two numbers and an operator from user and perform calculation.
+
+Hint: Use conditions like:
+
+if op == '+': result = a + b and so on.
+
+16. Absolute Value Calculator
+
+🔸 Input a number and print its absolute value.
+
+Hint: If number is less than 0, multiply it by -1.
+
+17. Check if a Character is a Vowel or Consonant
+
+🔸 Input a single alphabet and check whether it is vowel or consonant.
+
+Hint: Use in keyword to check:
+
+'a', 'e', 'i', 'o', 'u' (also check uppercase)
+
+18. Check for Triangle Type
+
+🔸 Input three sides. Check if all equal (Equilateral), any two equal
+
+(Isosceles), or all different (Scalene).
+
+Hint: Use conditions like a == b and b == c, etc.
+
+19. Check for Leap Year Using Only If (No Else)
+
+🔸 Same as Q6, but only use if statements.
+
+Hint: Use multiple if blocks instead of else.
+
+20. Password Strength Checker (Simple)
+
+🔸 Input a password and check for:
+
+● Length >= 8
+
+● Contains digits and letters
+
+Hint: Use len(password), .isdigit(), .isalpha(), or loop
+
+through characters.
