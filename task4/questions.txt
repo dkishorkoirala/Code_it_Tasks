@@ -1,0 +1,88 @@
+🔹 Section A: Function with return Statement
+1. Return Square of a Number
+📌 Write a function get_square(num) that returns the square of the
+number.
+Hint: Use return num * num.
+
+2. Return the Maximum of Two Numbers
+📌 Define get_max(a, b) that returns the larger of the two.
+Hint: Use if or the built-in max() function.
+
+3. Check Even or Odd (Return Message)
+📌 Write a function check_even_odd(num) that returns "Even" or "Odd".
+Hint: Use if num % 2 == 0.
+
+4. Return Sum of Digits
+📌 Create sum_digits(n) that returns the sum of all digits in the number.
+Hint: Use loop and n % 10, n //= 10.
+
+5. Return Factorial of a Number
+📌 Write a function get_factorial(n) that returns the factorial of n.
+Hint: Multiply numbers from 1 to n.
+
+6. Check Prime Number (Return Boolean)
+📌 Create is_prime(num) that returns True if number is prime, else
+False.
+Hint: Use loop from 2 to num-1.
+
+7. Return the Reverse of a Number
+📌 Define reverse_number(n) that returns the reversed number.
+Hint: Use loop to extract digits and build reverse.
+
+8. Count Vowels in a String
+📌 Write count_vowels(text) that returns the number of vowels in a
+string.
+Hint: Check if each character is in 'aeiouAEIOU'.
+
+9. Return GCD of Two Numbers
+📌 Create get_gcd(a, b) that returns the GCD of two numbers.
+Hint: Use Euclidean algorithm or loop.
+
+10. Return Palindrome Status
+📌 Write is_palindrome(text) that returns True if the string is a
+palindrome.
+Hint: Compare text == text[::-1].
+🔹 Section B: Using math Module + Return
+✨ Use import math at the top of your script.
+
+11. Return Square Root
+📌 Define get_sqrt(x) that returns the square root using math.sqrt().
+Hint: return math.sqrt(x)
+
+12. Return Ceiling and Floor of a Number
+📌 Write a function ceil_and_floor(x) that returns both ceiling and floor
+of a number.
+Hint: Use math.ceil() and math.floor().
+
+13. Return Value of sin(x)
+📌 Create get_sin(x) that returns sin(x) in radians.
+Hint: math.sin(x)
+
+14. Return Area of Circle
+📌 Write circle_area(radius) that returns area using πr².
+Hint: Use math.pi.
+
+15. Return Power of a Number
+📌 Define get_power(base, exp) that returns base^exp.
+Hint: Use math.pow(base, exp) or **.
+
+16. Return Factorial using math Module
+📌 Write factorial_math(n) that returns the factorial using
+math.factorial().
+Hint: No need for loops.
+
+17. Return Hypotenuse of Right Triangle
+📌 Create get_hypotenuse(a, b) that returns √(a² + b²).
+Hint: Use math.sqrt(a**2 + b**2).
+
+18. Convert Degrees to Radians
+📌 Define deg_to_rad(deg) that returns radians.
+Hint: math.radians(deg)
+
+19. Convert Radians to Degrees
+📌 Define rad_to_deg(rad) that returns degrees.
+Hint: math.degrees(rad)
+
+20. Logarithm Base 10 of a Number
+📌 Write get_log10(x) that returns the base-10 logarithm.
+Hint: math.log10(x)
