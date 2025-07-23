@@ -1,0 +1,53 @@
+
+Menu-Driven Programs (do as much as you
+can)
+(menu options, loops, and functions recommended)
+
+1. Simple Calculator
+Q: Build a menu-driven calculator that performs addition,
+subtraction, multiplication, and division based on user input.
+Hint:
+1. Add
+2. Subtract
+3. Multiply
+4. Divide
+5. Exit
+Use if-elif, take two numbers, perform operation.
+
+
+2. Student Record System
+Q: Menu-driven program to:
+1. Add student
+2. Delete student
+3. View all students
+4. Exit
+Hint: Use dictionary to store roll number and name.
+
+3. Banking System
+Q: Menu with options:
+1. Check balance
+2. Deposit money
+3. Withdraw money
+4. Exit
+Hint:
+● Store balance in a variable.
+● Use loop + conditionals.
+
+4. To-Do List
+Q: Create a menu-based to-do list:
+1. Add task
+2. View all tasks
+3. Remove task
+4. Exit
+Hint: Use a list to store tasks.
+
+5. Library System
+Q: Menu:
+1. Add book
+2. Issue book
+3. Return book
+4. Display books
+5. Exit
+Hint:
+● Use dictionary to store book name → availability
+(True/False)
