@@ -1,0 +1,18 @@
+● Q1. What is a decorator in Python? Explain its use with a
+real-world analogy.
+-> in python a decorators are the functions that are used to wrap
+the next function and modify its behaviour without changing the 
+actual (code) function
+
+best case scenerio for decorators at real world is webpage / redirection
+-checking for authentication
+
+and another is validiation point too
+
+● Q2. What is the role of *args and **kwargs in decorator
+functions?
+
+-> *args is a tuple and **kwargs is a dictionary
+and its parameters for function in decorator which need to be
+passed to the wrapped function
+

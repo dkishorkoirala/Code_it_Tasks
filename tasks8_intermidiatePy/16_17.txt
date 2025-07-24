@@ -1,0 +1,19 @@
+● Q16. Write the syntax and one-line example of list
+    comprehension.
+syntax:
+list = [expression for item in iterable if condition]
+ex :
+
+numbers = [1, 2, 3, 4, 5]
+even_squares = [num ** 2 for num in numbers if num % 2 == 0]
+print(even_squares)
+
+
+● Q17. How can dictionary comprehension be used to reverse
+a dictionary?
+as like list comprehension dict functions well with colon : to 
+seperate value and key
+
+dict = {'a': 1, 'b': 2, 'c': 3}
+reversed_dict = {value: key for key, value in dict.items()}
+print(reversed_dict)

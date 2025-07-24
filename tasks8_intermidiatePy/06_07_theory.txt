@@ -1,0 +1,17 @@
+● Q6. What is a generator? How is it different from a
+    regular function?
+generators are functions that return iterators.
+iterators are objects that can be iterated over.
+
+from regular function as function are reusable blocks 
+generators are once responsible to produce a sequence of values
+i.e iterators
+
+it uses yield keyword -> which not only returns a value but also pauses
+till next call and next call is done using next function itself "next()"
+
+● Q7. What are the advantages of using generators?
+it is memory efficient
+it is faster
+load time is reduced for program
+   

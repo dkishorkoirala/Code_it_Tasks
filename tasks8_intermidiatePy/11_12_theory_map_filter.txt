@@ -1,0 +1,15 @@
+ ● Q11. What does map() do in Python? Give an example.
+-> map function applies a function to each item in an 
+iterable and returns an iterator
+example :
+a = [1,2,3]
+b = map(lambda x: x**2, a)
+print(list(b))
+
+● Q12. How is filter() different from map()?
+-> filter() is used to exclude the elements from the
+iterable that don't satisfy the condition
+example :
+a = [1,2,3]
+b = filter(lambda x: x%2==0, a)
+print(list(b))
